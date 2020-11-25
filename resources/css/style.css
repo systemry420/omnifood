@@ -179,3 +179,36 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/* -----------------------------
+    MEALS
+-----------------------------*/
+.meals {
+    padding: 0;
+}
+
+.showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.showcase li img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.showcase li img:hover {
+    transform: scale(1.06);
+    opacity: 1;
+}
