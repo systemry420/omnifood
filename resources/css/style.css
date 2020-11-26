@@ -212,3 +212,47 @@ header {
     transform: scale(1.06);
     opacity: 1;
 }
+
+/* -----------------------------
+    HOW IT WORKS
+-----------------------------*/
+
+.steps {
+    margin-top: 36%;
+    background-color: #f4f4f4;
+}
+
+.steps:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps:last-child {
+    padding-left: 2%;
+}
+
+.app {
+    width: 30%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    margin-right: 25px;
+    float: left;
+}
