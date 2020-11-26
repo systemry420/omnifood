@@ -329,3 +329,55 @@ cite img {
     margin-right: 20px;
     margin-top: -10px;
 }
+
+
+/* -----------------------------
+    PLANS
+-----------------------------*/
+
+.plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 5%;
+    box-shadow: 0 0 5px 5px #ccc;
+}
+
+.plan-box h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-price {
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 50%;
+    color: #666;
+    font-weight: 400;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
