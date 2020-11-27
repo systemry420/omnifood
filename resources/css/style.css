@@ -8,6 +8,7 @@ html {
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 * {
